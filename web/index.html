@@ -6,11 +6,26 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Coperacha S.A.</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <div>TODO write content</div>
+        <div class="container" id="singin">
+
+            <form class="form-signin">
+                <h2 class="form-signin-heading">Ingreso Coperacha</h2>
+                <label for="usr" class="sr-only">Usuario</label>
+                <input type="text" id="usr" class="form-control" value="admin" required="" autofocus="">
+                
+                <label for="pass" class="sr-only">Password</label>
+                <input type="password" id="pass" class="form-control" value="admin" placeholder="Password" required="">
+                
+                <a class="btn btn-lg btn-primary btn-block" href="home.jsp?page=1">Ingresar</a>
+            </form>
+
+        </div>
     </body>
 </html>
